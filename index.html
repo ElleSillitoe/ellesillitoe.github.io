@@ -34,20 +34,6 @@
   
 $(document).ready(function(){
 
-//!--SKILL BAR ANIMATION
-
-  var offsetTop = $('#skills').offset().top;
-  $(window).scroll(function() {
-var height = $(window).height();
-if($(window).scrollTop()+height > offsetTop) {
-  jQuery('.skillbar').each(function(){
-    jQuery(this).find('.skillbar-bar').animate({
-      width:jQuery(this).attr('data-percent')
-    },2000);
-  });
-}
-});
-
 //FOR SCROLLING PAGE SMOOTHLY
 
 $('[data-toggle="tooltip"]').tooltip(); 
@@ -93,14 +79,15 @@ $("a").on('click', function(event) {
       <span class="icon-bar"></span>                        
     </button>
     <span> 
-      <a class="navbar-brand" href="index.html" >Elle</a> 
+      <a class="navbar-brand" href="index.html" >Elle Sillitoe</a> 
     </span>
   </div>
   <div class="collapse navbar-collapse" id="myNavbar" >
     <ul class="nav navbar-nav navbar-right ">
      
       <li><a href="#about"> ABOUT </a></li>
-      <li><a href="#work"> WORK </a></li>
+      <li><a href="#skills"> SKILLS </a></li>
+      <li><a href="#work"> PREVIOUS WORK </a></li>
       <li><a href="#contact"> CONTACT </a></li>
       
     </ul>
@@ -115,9 +102,6 @@ $("a").on('click', function(event) {
   <h1 style="display: inline;">I am</h1>
   <h1 style="color: #7372dd;display: inline;"> Elle Sillitoe </h1>
   <p style="font-family: 'sans-serif';" >A passionate narrative designer.</p>
-   <!---ADD RESUME DOC IN THE PUBLIC FOLDER WITH OTHER FILES AND ADD ITS NAME BELOW IN HREF AND NAME OF FILE THAT SHOULD APPEAR AFTER DOWNLOAD IN 'DOWNLOAD'-->
- <!--- EXAMPLE: <a href="Resume.pdf" download="Myresume" class="btn">Download My Resume</a>-->
- <a href=" " download=" " class="btn btncolor">Download My Resume</a>
 
 </div>  
 
@@ -139,51 +123,46 @@ $("a").on('click', function(event) {
 
      </div>    
 
-<!---SKILLS --> 
 
- 
-</div>
+ <!---SKILLS SECTION -->
 
- <!---WORK SECTION -->
-
-<div id="work" class="container-fluid  text-center " style="background-color: white;padding-bottom: 3%;">
-      <h1 style="color: #67676e;">WORK</h1>
+<div id="skills" class="container-fluid  text-center " style="background-color: white;padding-bottom: 3%;">
+      <h1 style="color: #67676e;">SKILLS</h1>
         <hr style="width:10%; color:#000;margin-bottom: 5%;" class="solid">
         
         <div class="row">
             <div class="col-sm-12 col-md-3 col-lg-3 ">
-              <span class="material-icons feature " >web</span>
+              <span class="material-icons feature " >textsms</span>
               <h3 style="color: #67676e;" class="lobsterfont">Responsive</h3>
-              <p>NPC dialogue scripting.</p>
+              <p>NPC dialogue writing.</p>
         
             </div>
         
             <div class="col-sm-12 col-md-3 col-lg-3 ">
-              <span class="material-icons feature" >speed</span>
-              <h3 style="color: #67676e;" class="lobsterfont">Fast</h3>
-              <p>Branching storylines.</p>
+              <span class="material-icons feature" >alt_route</span>
+              <h3 style="color: #67676e;" class="lobsterfont">Dynamic</h3>
+              <p>Branching, interactive storylines.</p>
             </div>
         
              <div class="col-sm-12 col-md-3 col-lg-3 ">
-                <span class="material-icons feature" >lightbulb</span>
-                <h3 style="color: #67676e;" class="lobsterfont">Intutive</h3>
+                <span class="material-icons feature" >auto_stories</span>
+                <h3 style="color: #67676e;" class="lobsterfont">Vast</h3>
                 <p>Passionate, engaging worldbuilding.</p>
             </div>
            
             <div class="col-sm-12 col-md-3 col-lg-3 ">
-                <span class="material-icons feature" >dynamic_form</span>
-                <h3 style="color: #67676e;" class="lobsterfont">Dynamic</h3>
-                   
-                <p>Writing that feels alive.</p>
+                <span class="material-icons feature" >create</span>
+                <h3 style="color: #67676e;" class="lobsterfont">Enthralling</h3>
+                <p>Detailed writing that feels alive.</p>
                 
             </div>
            </div>  
       
            <div class="row" style="margin-bottom: 5%;">
-            <h3 class="heading" style="margin: 5%;">PREVIOUS WORKL</h3>
+            <h3 class="heading" style="margin: 5%;">PREVIOUS WORK</h3>
             <div class="container" style="margin: 6%;">
             
- <!---ABOUT PROJECT -->
+ <!---PREVIOUS WORK -->
 
           <p align="justify"> Example text.</p>
         </div>
