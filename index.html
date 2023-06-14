@@ -25,11 +25,21 @@
 
 <!--google icon link-->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,-25" />
 <!--font awesomes icons link-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <link rel="stylesheet" href="style.css">
-
+<style>
+      table {
+         border:1px solid white;
+         padding: 10px;
+      }
+      th, td{
+         border:1px solid white;
+         padding: 20px;
+      }
+   </style>
 <script>
   
 $(document).ready(function(){
@@ -87,7 +97,8 @@ $("a").on('click', function(event) {
      
       <li><a href="#about"> ABOUT </a></li>
       <li><a href="#skills"> SKILLS </a></li>
-      <li><a href="#work"> PREVIOUS WORK </a></li>
+      <li><a href="#work"> WORK EXPERIENCE </a></li>
+      <li><a href="#portfolio"> PORTFOLIO </a></li>
       <li><a href="#contact"> CONTACT </a></li>
       
     </ul>
@@ -99,29 +110,57 @@ $("a").on('click', function(event) {
 
 <div id="section2"   class="container-fluid jumbotron text-center lobsterfont" style="margin-top:100px;background-color: white;">
   <h1>Hey there!</h1>
-  <h1 style="display: inline;">I am</h1>
-  <h1 style="color: #7372dd;display: inline;"> Elle Sillitoe </h1>
+  <h1 style="display: inline;">I am </h1>
+  <h1 style="color: #ffa8d1;display: inline;"> Elle Sillitoe </h1>
   <p style="font-family: 'sans-serif';" >A passionate narrative designer.</p>
 
 </div>  
 
  <!---ABOUT SECTION -->
 
-<div  id="about" class="container-fluid text-center" style="background-color: #f5f5f5;">
+<div  id="about" class="container-fluid text-center" style="padding-bottom: 3%;background-color: #f5f5f5;">
   <h1 class="heading">ABOUT</h1>
   <hr class="solid">
 
   <div class="row">
      <div class="col-sm-12 col-md-4 col-lg 4 thumb">
-
-<!---PIC AND INTRO-->
-
-        <img onContextMenu="return false;"  src="pic.png" class="zoom img-fluid "  alt="mypic">
+        <img onContextMenu="return false;"  src="mypic.png" class="zoom img-fluid "  alt="mypic">
+	</div>   
          
-        <h3 align=left style="color: #67676e;">Who am I?</h3>
-       <p align=justify>I am an aspiring games writer and narrative designer who strives to create unique worlds filled with interesting and engaging stories.</p> 
+       <div class="col-sm-12 col-md-4 col-lg 4 thumb">
+	<h3 style="color: #67676e;" class="lobsterfont"> Who I am: </h3>
+	<p>I am an aspiring games writer and narrative designer who strives to create unique worlds filled with thoughtful, creative, and engaging stories driven by a passion for writing.
+	 Currently, I am studying a dual honours BA degree in Communication and Media, and Game Design Studies, wherein I investigate the importance of virtual worlds to modern communication and the shifting understanding of digital media literacy.</p>
 
-     </div>    
+	<h3 style="color: #67676e;" class="lobsterfont"> My Education: </h3>
+	<p>Dual Honours B.A. (2022 - Present)<br> Communication and Media, and Game Design Studies <br>
+<br>
+		A level (2020 - 2022) <br> English Literature: A* <br>
+<br>
+		A level (2020 - 2022) <br> Politics: A* <br>
+<br>
+		A level (2020 - 2022) <br> Pyschology: A 
+
+
+	</p>
+
+</div> 
+       <div class="col-sm-12 col-md-4 col-lg 4 thumb">
+	<h3 style="color: #67676e;" class="lobsterfont"> Games that shaped me:</h3>
+        <img onContextMenu="return false;"  src="skyrimpic.png" class="zoom img-fluid "  alt="skyrimpic">
+	<img onContextMenu="return false;"  src="reddeadpic.png" class="zoom img-fluid "  alt="reddeadpic">
+<br>
+
+	<img onContextMenu="return false;"  src="lastofuspic.png" class="zoom img-fluid "  alt="lastofuspic">
+	<img onContextMenu="return false;"  src="minecraftpic.png" class="zoom img-fluid "  alt="minecraftpic">
+<br>
+	<img onContextMenu="return false;"  src="animalcrossingpic.png" class="zoom img-fluid "  alt="animalcrossingpic">
+	<img onContextMenu="return false;"  src="fablepic.png" class="zoom img-fluid "  alt="fablepic">
+     
+</div> 
+
+   </div>
+</div>
 
 
  <!---SKILLS SECTION -->
@@ -133,8 +172,8 @@ $("a").on('click', function(event) {
         <div class="row">
             <div class="col-sm-12 col-md-3 col-lg-3 ">
               <span class="material-icons feature " >textsms</span>
-              <h3 style="color: #67676e;" class="lobsterfont">Responsive</h3>
-              <p>NPC dialogue writing.</p>
+              <h3 style="color: #67676e;" class="lobsterfont">Engaging</h3>
+              <p>Captivating dialogue writing.</p>
         
             </div>
         
@@ -147,7 +186,7 @@ $("a").on('click', function(event) {
              <div class="col-sm-12 col-md-3 col-lg-3 ">
                 <span class="material-icons feature" >auto_stories</span>
                 <h3 style="color: #67676e;" class="lobsterfont">Vast</h3>
-                <p>Passionate, engaging worldbuilding.</p>
+                <p>Passionate, absorbing worldbuilding.</p>
             </div>
            
             <div class="col-sm-12 col-md-3 col-lg-3 ">
@@ -157,36 +196,100 @@ $("a").on('click', function(event) {
                 
             </div>
            </div>  
-      
-           <div class="row" style="margin-bottom: 5%;">
-            <h3 class="heading" style="margin: 5%;">PREVIOUS WORK</h3>
-            <div class="container" style="margin: 6%;">
             
- <!---PREVIOUS WORK -->
-
-          <p align="justify"> Example text.</p>
-        </div>
-       
-
-          <div class="col-sm-12 col-md-4 col-lg-4 colmargin">
-              <img onContextMenu="return false;"  src="admin.png"  class="zoom img-fluid "  alt="mypic">
-            
-           </div>
-  
-
-           <div class="col-sm-12 col-md-4 col-lg-4 colmargin">
-            <img onContextMenu="return false;" src="home.png" class="zoom img-fluid "  alt="mypic">
-             
-           </div>
-          
-
-           <div class="col-sm-12  col-md-4 col-lg-4 colmargin">
-             <img onContextMenu="return false;"  src="news.png" class="zoom img-fluid "  alt="mypic">
-           
-            </div>
-           
+ <!---WORK EXPERIENCE SECTION  -->
+<br>
+<div id="work" class="container-fluid  text-center " style="background-color: white;padding-bottom: 3%;">
+      <h1 style="color: #67676e;">WORK EXPERIENCE</h1>
+        <hr style="width:10%; color:#000;margin-bottom: 5%;" class="solid">
          
-       </div>
+
+<body>
+
+   <table style="width: 80%" class="container-fluid text-left">
+	<col style="width:10%">
+	<col style="width:90%">
+	<thead>
+      <tr>
+         <th></th>
+         <th></th>
+      </tr>
+      <tr>
+         <td><img onContextMenu="return false;"  src="daacipic.png" class="zoom img-fluid "  alt="daacipic">
+	<br>
+	<br>
+	<h3 style="color: #67676e;" class="lobsterfont"> DAACI </h3>
+	<h4 style="color: #67676e;" class="lobsterfont">Modern Communications Consultant</h4></td>
+         <td><p> </p></td>
+      </tr>
+      <tr>
+         <td><img onContextMenu="return false;"  src="frontierspic.png" class="zoom img-fluid "  alt="frontierspic">
+	<h3 style="color: #67676e;" class="lobsterfont"> Minecraft Frontiers </h3>
+	<h4 style="color: #67676e;" class="lobsterfont">Head of Lore</h4></td>
+         <td><p> As Head of Lore, I designed and developed the world lore for <a href="https://minecraftfrontiers.com/"target=”_blank”>Minecraft Frontiers</a>, a modded minecraft server with a community of over 1600 users.
+		<ul>
+			<li> Led the lore team including recruitment and project managment. </li>
+			<li> Designed and scripted world events, overarching server narratives, and questlines. </li>
+			<li> Crafted detailed descriptions for locations, characters, factions and world history. </li>
+			<li> Wrote and scripted NPC dialogues in JavaScript. </li>
+			<li> Wrote supplementary lore for patreon subscribers. </li>
+			<li> Created, updated, and maintained the <a href="https://minecraftfrontiers.com/wiki/index.php/Main_Page"target=”_blank”>Wikipedia pages</a> covering lore. </li>
+			<li> Interacted with playerbase via forums and community posts to ensure lore is dynamic, relevant and engaged with. </li>
+		</ul>
+		</p></td>
+	</tr>
+
+  <tr>
+         <td><img onContextMenu="return false;"  src="birtleypic.png" class="zoom img-fluid "  alt="birtleypic">
+	<h3 style="color: #67676e;" class="lobsterfont"> Birtley House Independent School </h3>
+	<h4 style="color: #67676e;" class="lobsterfont">Teaching Assistant</h4></td>
+         <td><p><a href="https://www.birtleyhouseschool.co.uk/"target=”_blank”>Birtley House</a> is a specialist primary school for children with a range of needs including Specific and General Learning Difficulties, ASD and social communication difficulties, ADHD, Speech and Language difficulties, selective mutism and attachment and anxiety disorders. Here, I worked as a teaching assistant to support the children with their needs in classes, group sessions and 1:1. I also created and ran the games club which really helped me understand firsthand how games are so crucial to children's social, cognitive, and behavioural development as well as more generally emphasising the need for inclusive games. I returned to Birley House to help run a summer school which involved organising a broad range of activities and overseeing the children's play. You can view my open reference from the Deputy Headteacher <a href="openreference.pdf"target=”_blank”>here</a>.  
+		<ul>
+			<li> Gave 1:1 support to children with significant difficulties. </li>
+			<li> Improvised and adapted strategies to respond to the individual needs of the children. </li>
+			<li> Created and ran a weekly games club which helped the children practise their social and cognitive skills. </li>
+			<li> Worked within a team of other staff members to design, organise and run a summer school.  </li>
+			<li> Supervised the children's play and aided in resolving social conficts. </li>
+			<li> Adapted to a fast-paced, stressful environment. </li>
+		</ul>
+		</p></td>
+	</tr>
+   </table>
+</body>
+       
+</div>
+
+           
+ <!---PORTFOLIO SECTION  -->
+<br>
+<div id="portfolio" class="container-fluid  text-center " style="background-color: white;padding-bottom: 3%;">
+      <h1 style="color: #67676e;">PORTFOLIO</h1>
+        <hr style="width:10%; color:#000;margin-bottom: 5%;" class="solid">      	
+
+<body>
+
+	<div class="row">
+        <div class="col-sm-12 col-md-3 col-lg-3 ">
+        	<a href="ink/library.html"target=”_blank”><img onContextMenu="return false;"  src="doibodypic.png" class="zoom img-fluid "  alt="libraryhtml"></a>
+		<br><br>
+		<a href="ink/library.html"target=”_blank”><h3 style="color: #67676e;" class="lobsterfont"> The Library of Knowledge </h3></a>
+		<h4 style="color: #67676e;" class="lobsterfont">An INKLE Interactive Story</h4></td>
+        	<p>Speak with Shaanxi, the omniscient spirit of knowledge who offers three tales - two short stories which describe the political and geographical regions of the east and west lands of Elandris, as well as a novella explaining the protagonist's backstory. While each tale is self-contained, the choices the player makes when conversing with the spirit, and the spirit's mysterious assistant, offers an interweaving, branching story with two alternative endings. </p>
+            </div>
+        <div class="col-sm-12 col-md-3 col-lg-3 ">
+		<a href="doilife.pdf"target=”_blank”><img onContextMenu="return false;"  src="doifacepic.png" class="zoom img-fluid "  alt="doilife"></a>
+		<br><br>
+		<a href="doilife.pdf"target=”_blank”><h3 style="color: #67676e;" class="lobsterfont"> The Tale of Doi </h3></a>
+		<h4 style="color: #67676e;" class="lobsterfont">A Novella</h4></td>
+        	<p>A plain text version of the novella incorporated into the Library of Knowledge for those who don't want to play through the game.  </p>
+
+	</div>
+          </div>  
+</body>
+
+     </div> 
+
+   </div>
    
        
 </div>
@@ -194,14 +297,15 @@ $("a").on('click', function(event) {
  <!---CONTACT SECTION -->
 
 <div id="contact" class="container-fluid text-center" style="padding-bottom: 3%;background-color: #f5f5f5;">
-    <h1 class="heading">CONTACT</h1>
-     <h3 style="color: #67676e;" class="lobsterfont">Intutive</h3>
-     <p>Feel free to email me at sillitoe.ellie@gmail.com</p>
+    <h1 class="heading">CONTACT ME</h1>
+     <h3 style="color: #67676e;" class="lobsterfont">Email:</h3>
+     <p>ellesillitoe.work@gmail.com</p>
  </div> 
 
   <!---FOOTER -->
 <div class="container-fluid  text-center footer" >
-   <a href="https://github.com/ellesillitoe">  <p>Designed by Elle Sillitoe</p></a>
+<br>
+   <a href="https://github.com/ellesillitoe">  <p>Website designed by Elle Sillitoe</p></a>
 </div>
 
 </body>
