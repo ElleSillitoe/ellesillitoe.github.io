@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700|Quattrocento:700');
 
+.danger {
+    color: red;
+}
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
@@ -93,7 +96,7 @@ h2 {
 
 .container {
     display: block;
-    max-width: 600px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
     padding-top: 4em;
@@ -113,7 +116,7 @@ p {
 
 a {
     font-weight: 700;
-    color: #b97c2c;
+    color: #ffa8d1;
     font-family: sans-serif;
     transition: color 0.6s;
     text-decoration: none;
@@ -237,7 +240,7 @@ body.dark {
 }
 
 .dark a {
-    color: #cc8f1a;
+    color: #ffa8d1;
     transition: color 0.6s;
 }
 
